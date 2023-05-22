@@ -1,0 +1,32 @@
+body {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+}
+
+h1 {
+    color: red;
+    font-size: 50px;
+}
+ul {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    list-style: none;
+    padding: 5px 10px;
+}
+
+li {
+    font-size: 25px;
+    width: 300px;
+    border: 1px solid red;
+}
+
+.active {
+    color: #fff;
+    border: 2px solid red;
+}
+
